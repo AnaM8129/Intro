@@ -1,3 +1,5 @@
 import streamlit as st
 st.title("Mi primera app")
 st.header("Esta es mi página de presentación")
+from PIL import Image
+image = Image.open("tarot.jpg")
