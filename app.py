@@ -5,4 +5,4 @@ from PIL import Image
 image = Image.open("tarot.jpg")
 st.image(image, caption="Esta es una imagen del tarot")
 texto = st.text_input("Ingresa texto", "Texto inicial")
-st.write("El texto que has escrito", texto)
+st.write("El texto que has escrito es", texto)
